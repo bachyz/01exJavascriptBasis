@@ -5,5 +5,8 @@
  * Je code moet algemeen bruikbaar zijn. Ze moet bijvoorbeeld ook werken als het min-teken verplaatst wordt.
  * In het onderstaande geval moet er afgeprint worden: Het resultaat is 4869
  */
-'use strict';
-const orderNumber = '14284-4859';
+"use strict";
+const orderNumber = "14284-4859";
+const indexOf2 = orderNumber.indexOf("-") + 1;
+const rest = Number(orderNumber.substring(indexOf2)) + 10;
+console.log(`${rest}`);

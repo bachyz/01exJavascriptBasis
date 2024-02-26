@@ -5,6 +5,6 @@
 'use strict';
 const a = '5';
 const b = 5;
-if (a != b) {
+if (a !== b) {
   console.log(`De string '5' is verschillend van het getal 5.`);
 }
